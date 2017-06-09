@@ -1,0 +1,130 @@
+﻿.logo {
+    max-width:350px;
+}
+.myPanel {
+    padding:10px;
+}
+
+.mybutton1 {
+    font-size:12px;
+    font-weight:60px;
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+	
+}
+
+.mybutton2 {
+    font-size:10px;
+    font-weight:15px;
+    width:200px;
+    height:75px;
+    border-radius: 7px;
+	font-weight:bold; 
+	
+}
+
+
+.btn-engin
+{color:#fff;background-color:#000800;border-color:#46b8da}
+.myRow1
+{
+	
+    font-weight:normal;
+   
+    
+}
+h3 {
+  font-weight:bold; 
+
+}
+
+.myRow {
+    
+}
+h3 {
+  font-weight:bold; 
+}
+.mybutton {
+    font-size:20px;
+    font-weight:bold;
+    width:100px;
+    height:100px;
+     border-radius: 50px;
+}
+.myLightButton {
+    font-size:20px;
+    font-weight:bold;
+    width:100px;
+    height:100px;
+     border-radius: 30px;
+}
+.myLight {
+    margin-bottom:30px;
+}
+
+.myEmmergangy {
+    font-size:60px;
+    font-weight:bold;
+    width:200px;
+    height:200px;
+    border-radius: 125px;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
