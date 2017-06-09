@@ -10,12 +10,20 @@
 		    $("#btnDur").click(function(){    
                     gonder(true,'"WEB_Server".Sistem_Stop"');
 					gonder(false,'"WEB_Server".Sistem_Start"');	
-					gonder(false,'"WEB_Server".Genel_Reset"');					
+					gonder(false,'"WEB_Server".Genel_Reset"');
+					gonder(false,'"WEB_Server".Dummy1"');					
            });
 		   $("#btnGit").click(function(){    
                     gonder(true,'"WEB_Server".Sistem_Start"');	
 					gonder(false,'"WEB_Server".Sistem_Stop"');	
-					gonder(false,'"WEB_Server".Genel_Reset"');					
+					gonder(false,'"WEB_Server".Genel_Reset"');
+					gonder(false,'"WEB_Server".Dummy1"');					
+           });
+		   $("#btnYaz").click(function(){    
+                    gonder(false,'"WEB_Server".Sistem_Start"');	
+					gonder(false,'"WEB_Server".Sistem_Stop"');	
+					gonder(false,'"WEB_Server".Genel_Reset"');
+					gonder(true,'"WEB_Server".Dummy1"');					
            });
 		   $("#btnRst").mousedown(function(){    
                     gonder(true,'"WEB_Server".Genel_Reset"');	

@@ -23,7 +23,15 @@
 	font-weight:bold; 
 	
 }
-
+.mybuttonCihan {
+    font-size:20px;
+    font-weight:15px;
+    width:200px;
+    height:75px;
+    border-radius: 7px;
+  font-weight:bold; 
+  
+}
 
 .btn-engin
 {color:#fff;background-color:#000800;border-color:#46b8da}
